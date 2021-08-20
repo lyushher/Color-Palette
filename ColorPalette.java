@@ -42,7 +42,8 @@ public class ColorPalette implements ChangeListener{
 		cc = new JColorChooser();
 		cc.getSelectionModel().addChangeListener(this);
 		
-		//to remove preview panel;
+		
+		
 		cc.setPreviewPanel(new JPanel());
 		
 		colorChooserPanel.add(cc);
@@ -53,7 +54,7 @@ public class ColorPalette implements ChangeListener{
 		colorPanel.setBackground(Color.yellow);
 		window.add(colorPanel);
 		
-		textfield.setText("Output;");
+		textfield.setText("Output; ");
 		textfield.setFont(new Font("Serif",Font.BOLD, 25));
 		textfield.setForeground(Color.white);
 		textfield.setBounds(100,400,600,170);
