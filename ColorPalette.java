@@ -42,7 +42,7 @@ public class ColorPalette implements ChangeListener{
 		cc = new JColorChooser();
 		cc.getSelectionModel().addChangeListener(this);
 		
-		
+		// You can remove the color palette by typing code here!
 		
 		cc.setPreviewPanel(new JPanel());
 		
